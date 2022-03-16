@@ -26,3 +26,5 @@ module "subnet" {
   rg_name = module.rg.rg_name
   subnet_address_prefixes = ["10.0.0.0/24"]
 }
+
+#Test
